@@ -20,10 +20,15 @@ h1 {
     height: auto;
 }
 
-img {
+.logo1 {
     margin-right: auto;
     margin-left: 10px;
     width: 100px;
     height: 100px;
     padding: 1px;
+}
+
+.see {
+    margin-top: 20px;
+
 }
