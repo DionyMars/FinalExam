@@ -37,6 +37,19 @@ h1 {
     object-position: center;
 }
 
+.card-custom {
+    width: 250px;
+    /* Adjust width as needed */
+    height: 350px;
+    /* Adjust height as needed */
+}
+
+.card-custom .card-img-top {
+    height: 200px;
+    /* Adjust image height as needed */
+    object-fit: cover;
+}
+
 @media (max-width: 798px) {
     .header {
         left: -100%;
