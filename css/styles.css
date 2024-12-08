@@ -35,7 +35,9 @@ h1 {
 .carousel img {
     height: auto;
     width: 100%;
-    max-height: 800px;
+    max-height: 1000px;
+    object-fit: cover;
+    object-position: center;
 }
 
 @media (max-width: 798px) {
