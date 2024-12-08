@@ -30,7 +30,12 @@ h1 {
 
 .see {
     margin-top: 20px;
+}
 
+.carousel img {
+    height: auto;
+    width: 100%;
+    max-height: 800px;
 }
 
 @media (max-width: 1199px) {
