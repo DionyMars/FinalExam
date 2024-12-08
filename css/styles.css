@@ -42,6 +42,7 @@ h1 {
     /* Adjust width as needed */
     height: 350px;
     /* Adjust height as needed */
+    align-content: center;
 }
 
 .card-custom .card-img-top {
