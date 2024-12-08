@@ -38,7 +38,7 @@ h1 {
     max-height: 800px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 798px) {
     .header {
         left: -100%;
     }
@@ -46,7 +46,8 @@ h1 {
 
 @media (max-width: 768px) {
     .carousel-caption {
-        font-size: 14px;
-        padding: 20px;
+        font-size: 12px;
+        padding: 10px;
+        line-height: 1.5;
     }
 }
