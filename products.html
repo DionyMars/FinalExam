@@ -222,12 +222,17 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="button" class="btn btn-success">Confirm</button>
+                        <button type="button" class="btn btn-success" onclick="showConfirmation()">Confirm</button>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <script>
+        function showConfirmation() {
+            alert("Unfortunately the product you want to buy is out of stack, please comeback again tomorrow. Thank you");
+        }
+    </script>
     <footer class="text-center bg-dark text-white py-3">
         <p>&copy; 2024 Cordillera Crate. All rights reserved.</p>
     </footer>
