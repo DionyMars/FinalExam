@@ -31,9 +31,9 @@
             </div>
         </div>
     </nav>
-    <form class="d-inline-flex align-items-center p-1 w-100 w-md-auto">
-        <input class="form-control me-2" type="search" placeholder="Enter Product Name" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+    <form class="d-inline-flex align-items-center p-1 w-100 w-md-auto" onsubmit="showSearchMessage(event)">
+        <input class="form-control me-2" type="search" placeholder="Enter Product Name" aria-label="Search" required>
+        <button id="searchButton" class="btn btn-outline-success" type="submit">Search</button>
     </form>
     <main class="container-fluid my-5">
         <div class="row justify-content-center flex-wrap">
@@ -233,6 +233,10 @@
         </div>
     </main>
     <script>
+        function showSearchMessage(event) {
+            event.preventDefault();
+            alert("You're too young to be lazy just scroll down, browse through our products one by one");
+        }
         function showConfirmation() {
             alert("Unfortunately the product you want to buy is out of stack, please comeback again tomorrow. Thank you");
         }
