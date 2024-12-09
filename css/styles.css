@@ -51,6 +51,24 @@ h1 {
     object-fit: cover;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.cbutton {
+    width: 80px;
+}
+
 @media (max-width: 798px) {
     .header {
         left: -100%;
